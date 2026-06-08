@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- HEADER -->
+
+        <header class="header">
+
+            <a href="index.html" class="back-btn">
+
+                <i class="ri-arrow-left-line"></i>
+
+            </a>
+
+            <h1 class="product-page-logo">
+                LUXORA
+            </h1>
+
+            <button class="cart-btn">
+
+                <i class="ri-shopping-bag-line"></i>
+
+                <span>2</span>
+
+            </button>
+
+        </header>
+        <div class="product-layout">
+            <section class="product-hero">
+
+                <img id="mainImage" />
+
+            </section>
+
+            <section class="product-details">
+
+                <div class="product-top">
+
+                    <div>
+                        <h2 id="productTitle"></h2>
+                        <div class="product-rating">
+                            ★★★★★
+                            <span id="productRating"></span>
+
+                        </div>
+
+                    </div>
+                    <h3 id="productPrice"></h3>
+                </div>
+                <p class="product-description" id="productDescription"></p>
+
+                <div class="variant-group">
+
+                    <p>Size</p>
+
+                    <div class="variant-options">
+
+                        <button class="variant active">
+                            S
+                        </button>
+
+                        <button class="variant">
+                            M
+                        </button>
+
+                        <button class="variant">
+                            L
+                        </button>
+
+                        <button class="variant">
+                            XL
+                        </button>
+                    </div>
+                </div>
+
+                <!-- COLORS -->
+
+                <div class="variant-group">
+                    <p>Color</p>
+                    <div class="color-options">
+
+                        <button class="color active-color beige"></button>
+
+                        <button class="color black"></button>
+
+                        <button class="color brown"></button>
+
+                    </div>
+                </div>
+                <button class="main-cart-btn">
+                    ADD TO CART
+                </button>
+
+                <div class="product-features">
+
+                    <div class="feature-item">
+                        <i class="ri-truck-line"></i>
+                        <span>
+                            Free Shipping
+                        </span>
+                    </div>
+
+                    <div class="feature-item">
+                        <i class="ri-arrow-go-back-line"></i>
+                        <span>
+                            Easy Returns
+                        </span>
+                    </div>
+
+                    <div class="feature-item">
+                        <i class="ri-shield-check-line"></i>
+                        <span>
+                            Premium Quality
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </section>
+        </div>
+
+        <!-- TRENDING -->
+
+        <section class="section">
+
+            <div class="section-head">
+                <h2>TRENDING NOW</h2>
+                <a href="#">
+                    View All
+                    <i class="ri-arrow-right-line"></i>
+                </a>
+            </div>
+            <div class="products">
+                <!-- PRODUCT -->
+                <a href="product.html?id=1" class="product-card">
+
+                    <button class="wishlist">
+
+                        <i class="ri-heart-line"></i>
+
+                    </button>
+
+                    <img src="assets/Co-ords.webp" alt="fashion" loading="lazy" />
+                    <div class="product-info">
+
+                        <h3>Seamless Ribbed Top</h3>
+
+                        <h4>₹1,499</h4>
+
+                        <div class="product-review">
+
+                            <i class="ri-star-fill"></i>
+
+                            <span>4.8 (2.1k)</span>
+
+                        </div>
+
+                        <button>
+                            SHOP NOW
+                        </button>
+
+                    </div>
+
+                </a>
+                <!-- PRODUCT -->
+                <a href="product.html?id=2" class="product-card">
+
+                    <button class="wishlist">
+
+                        <i class="ri-heart-line"></i>
+
+                    </button>
+
+                    <img src="assets/Jackets.webp" alt="bag" loading="lazy" />
+                    <div class="product-info">
+
+                        <h3>Oversized Cotton Shirt</h3>
+
+                        <h4>₹1,799</h4>
+                        <div class="product-review">
+
+                            <i class="ri-star-fill"></i>
+
+                            <span>4.3 (4.1k)</span>
+
+                        </div>
+
+                        <button>
+                            SHOP NOW
+                        </button>
+
+                    </div>
+
+                </a>
+                <!-- PRODUCT -->
+                <a href="product.html?id=3" class="product-card">
+
+                    <button class="wishlist">
+
+                        <i class="ri-heart-line"></i>
+
+                    </button>
+
+                    <img src="assets/Footwear.webp" alt="Footwear" loading="lazy" />
+                    <div class="product-info">
+
+                        <h3>Minimal Sneakers</h3>
+
+                        <h4>₹2,199</h4>
+                        <div class="product-review">
+
+                            <i class="ri-star-fill"></i>
+
+                            <span>4.8 (2.1k)</span>
+
+                        </div>
+
+                        <button>
+                            SHOP NOW
+                        </button>
+
+                    </div>
+
+                </a>
+                <!-- PRODUCT -->
+                <a href="product.html?id=4" class="product-card">
+
+                    <button class="wishlist">
+
+                        <i class="ri-heart-line"></i>
+
+                    </button>
+
+                    <img src="assets/Bags.webp" alt="bag" loading="lazy" />
+                    <div class="product-info">
+
+                        <h3>Canvas Tote Bag</h3>
+
+                        <h4>₹1,299</h4>
+                        <div class="product-review">
+
+                            <i class="ri-star-fill"></i>
+
+                            <span>4.4 (3.1k)</span>
+
+                        </div>
+
+                        <button>
+                            SHOP NOW
+                        </button>
+
+                    </div>
+
+                </a>
+                <!-- PRODUCT -->
+                <a href="product.html?id=1" class="product-card">
+
+                    <button class="wishlist">
+
+                        <i class="ri-heart-line"></i>
+
+                    </button>
+
+                    <img src="assets/Co-ords.webp" alt="fashion" loading="lazy" />
+                    <div class="product-info">
+
+                        <h3>Seamless Ribbed Top</h3>
+
+                        <h4>₹1,499</h4>
+
+                        <div class="product-review">
+
+                            <i class="ri-star-fill"></i>
+
+                            <span>4.8 (2.1k)</span>
+
+                        </div>
+
+                        <button>
+                            SHOP NOW
+                        </button>
+
+                    </div>
+
+                </a>
+                <!-- PRODUCT -->
+                <a href="product.html?id=6" class="product-card">
+
+                    <button class="wishlist">
+
+                        <i class="ri-heart-line"></i>
+
+                    </button>
+
+                    <img src="assets/Dresses.webp" alt="Footwear" loading="lazy" />
+                    <div class="product-info">
+
+                        <h3>Luxury Beige Outfit</h3>
+
+                        <h4>₹2,499</h4>
+                        <div class="product-review">
+
+                            <i class="ri-star-fill"></i>
+
+                            <span>4.8 (2.1k)</span>
+
+                        </div>
+
+                        <button>
+                            SHOP NOW
+                        </button>
+
+                    </div>
+
+                </a>
+                <!-- PRODUCT -->
+                <a href="product.html?id=5" class="product-card">
+
+                    <button class="wishlist">
+
+                        <i class="ri-heart-line"></i>
+
+                    </button>
+
+                    <img src="assets/brown-shirt.webp" alt="Casual Brown Shirt" loading="lazy" />
+
+                    <div class="product-info">
+
+                        <h3>Casual Brown Shirt</h3>
+
+                        <h4>₹1,899</h4>
+                        <div class="product-review">
+
+                            <i class="ri-star-fill"></i>
+
+                            <span>3.8 (1.1k)</span>
+
+                        </div>
+
+                        <button>
+                            SHOP NOW
+                        </button>
+
+                    </div>
+
+                </a>
+                <!-- PRODUCT -->
+                <a href="product.html?id=3" class="product-card">
+
+                    <button class="wishlist">
+
+                        <i class="ri-heart-line"></i>
+
+                    </button>
+
+                    <img src="assets/Footwear.webp" alt="Footwear" loading="lazy" />
+                    <div class="product-info">
+
+                        <h3>Minimal Sneakers</h3>
+
+                        <h4>₹2,199</h4>
+                        <div class="product-review">
+
+                            <i class="ri-star-fill"></i>
+
+                            <span>4.8 (2.1k)</span>
+
+                        </div>
+
+                        <button>
+                            SHOP NOW
+                        </button>
+
+                    </div>
+
+                </a>
+                <!-- PRODUCT -->
+                <a href="product.html?id=4" class="product-card">
+
+                    <button class="wishlist">
+
+                        <i class="ri-heart-line"></i>
+
+                    </button>
+
+                    <img src="assets/Bags.webp" alt="bag" loading="lazy" />
+                    <div class="product-info">
+
+                        <h3>Canvas Tote Bag</h3>
+
+                        <h4>₹1,299</h4>
+                        <div class="product-review">
+
+                            <i class="ri-star-fill"></i>
+
+                            <span>4.4 (3.1k)</span>
+
+                        </div>
+
+                        <button>
+                            SHOP NOW
+                        </button>
+
+                    </div>
+
+                </a>
+                <!-- PRODUCT -->
+                <a href="product.html?id=1" class="product-card">
+
+                    <button class="wishlist">
+
+                        <i class="ri-heart-line"></i>
+
+                    </button>
+
+                    <img src="assets/Co-ords.webp" alt="fashion" loading="lazy" />
+                    <div class="product-info">
+
+                        <h3>Seamless Ribbed Top</h3>
+
+                        <h4>₹1,499</h4>
+
+                        <div class="product-review">
+
+                            <i class="ri-star-fill"></i>
+
+                            <span>4.8 (2.1k)</span>
+
+                        </div>
+
+                        <button>
+                            SHOP NOW
+                        </button>
+
+                    </div>
+
+                </a>
+                <!-- PRODUCT -->
+                <a href="product.html?id=5" class="product-card">
+
+                    <button class="wishlist">
+
+                        <i class="ri-heart-line"></i>
+
+                    </button>
+
+                    <img src="assets/brown-shirt.webp" alt="Casual Brown Shirt" loading="lazy" />
+
+                    <div class="product-info">
+
+                        <h3>Casual Brown Shirt</h3>
+
+                        <h4>₹1,899</h4>
+                        <div class="product-review">
+
+                            <i class="ri-star-fill"></i>
+
+                            <span>3.8 (1.1k)</span>
+
+                        </div>
+
+                        <button>
+                            SHOP NOW
+                        </button>
+
+                    </div>
+
+                </a>
+                <!-- PRODUCT -->
+                <a href="product.html?id=2" class="product-card">
+
+                    <button class="wishlist">
+
+                        <i class="ri-heart-line"></i>
+
+                    </button>
+
+                    <img src="assets/Jackets.webp" alt="bag" loading="lazy" />
+                    <div class="product-info">
+
+                        <h3>Oversized Cotton Shirt</h3>
+
+                        <h4>₹1,799</h4>
+                        <div class="product-review">
+
+                            <i class="ri-star-fill"></i>
+
+                            <span>4.3 (4.1k)</span>
+
+                        </div>
+
+                        <button>
+                            SHOP NOW
+                        </button>
+
+                    </div>
+
+                </a>
+                <!-- PRODUCT -->
+                <a href="product.html?id=3" class="product-card">
+
+                    <button class="wishlist">
+
+                        <i class="ri-heart-line"></i>
+
+                    </button>
+
+                    <img src="assets/Footwear.webp" alt="Footwear" loading="lazy" />
+                    <div class="product-info">
+
+                        <h3>Minimal Sneakers</h3>
+
+                        <h4>₹2,199</h4>
+                        <div class="product-review">
+
+                            <i class="ri-star-fill"></i>
+
+                            <span>4.8 (2.1k)</span>
+
+                        </div>
+
+                        <button>
+                            SHOP NOW
+                        </button>
+
+                    </div>
+
+                </a>
+
+                <!-- PRODUCT -->
+                <a href="product.html?id=6" class="product-card">
+
+                    <button class="wishlist">
+
+                        <i class="ri-heart-line"></i>
+
+                    </button>
+
+                    <img src="assets/Dresses.webp" alt="Footwear" loading="lazy" />
+                    <div class="product-info">
+
+                        <h3>Luxury Beige Outfit</h3>
+
+                        <h4>₹2,499</h4>
+                        <div class="product-review">
+
+                            <i class="ri-star-fill"></i>
+
+                            <span>4.8 (2.1k)</span>
+
+                        </div>
+
+                        <button>
+                            SHOP NOW
+                        </button>
+
+                    </div>
+
+                </a>
+            </div>
+        </section>
+
+
+
+    </div>
+
+    <!-- BOTTOM NAV -->
+
+    <nav class="bottom-nav">
+        <a href="/index.html" class="nav-item ">
+            <i class="ri-home-5-fill"></i>
+            <span>Home</span>
+        </a>
+        <a href="#" class="nav-item active">
+            <i class="ri-user-3-line"></i>
+            <span>Girls</span>
+        </a>
+        <a href="/index.html" class="nav-item">
+            <i class="ri-shirt-line"></i>
+            <span>Men</span>
+        </a>
+        <a href="#" class="nav-item">
+            <i class="ri-user-line"></i>
+            <span>Profile</span>
+        </a>
+
+    </nav>
+
+    <script>
+
+        const products = {
+
+            1: {
+                title: "Seamless Ribbed Top",
+                price: "₹1,499",
+                rating: "4.8 (2.1k Reviews)",
+                description:
+                    "Premium ribbed top crafted for modern minimal fashion.",
+                image:
+                    "assets/Co-ords.webp"
+            },
+
+            2: {
+                title: "Oversized Cotton Shirt",
+                price: "₹1,799",
+                rating: "4.3 (4.1k Reviews)",
+                description:
+                    "Relaxed oversized cotton shirt with premium comfort fit.",
+                image:
+                    "assets/Jackets.webp"
+            },
+
+            3: {
+                title: "Minimal Sneakers",
+                price: "₹2,199",
+                rating: "4.8 (2.1k Reviews)",
+                description:
+                    "Luxury minimal sneakers designed for everyday style.",
+                image:
+                    "assets/Footwear.webp"
+            },
+
+            4: {
+                title: "Canvas Tote Bag",
+                price: "₹1,299",
+                rating: "4.4 (3.1k Reviews)",
+                description:
+                    "Premium tote bag with modern utility aesthetics.",
+                image:
+                    "assets/Bags.webp"
+            },
+
+            5: {
+                title: "Casual Brown Shirt",
+                price: "₹1,899",
+                rating: "3.8 (1.1k Reviews)",
+                description:
+                    "Minimal brown shirt with premium relaxed silhouette.",
+                image:
+                    "assets/brown-shirt.webp"
+            },
+
+            6: {
+                title: "Luxury Beige Outfit",
+                price: "₹2,499",
+                rating: "4.8 (2.1k Reviews)",
+                description:
+                    "Modern beige luxury outfit crafted for premium styling.",
+                image:
+                    "https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=1200"
+            }
+
+        };
+
+        /* GET PRODUCT ID */
+        const params =
+            new URLSearchParams(window.location.search);
+        const productId =
+            params.get("id");
+
+        /* FIND PRODUCT*/
+        const product =
+            products[productId];
+
+        /* UPDATE UI */
+        if (product) {
+            document.getElementById("mainImage").src =
+                product.image;
+            document.getElementById("productTitle").innerText =
+                product.title;
+            document.getElementById("productPrice").innerText =
+                product.price;
+            document.getElementById("productRating").innerText =
+                product.rating;
+            document.getElementById("productDescription").innerText =
+                product.description;
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
