@@ -110,7 +110,7 @@ if (searchInput) {
 
 }
 
-/* PRODUCT BUTTONS */
+
 
 const shopButtons =
   document.querySelectorAll(".product-info button");
@@ -128,7 +128,7 @@ shopButtons.forEach((button) => {
 
 });
 
-/* PRODUCT IMAGE GALLERY */
+
 
 const mainImage =
   document.getElementById("mainImage");
@@ -154,7 +154,6 @@ galleryThumbs.forEach((thumb) => {
 
 });
 
-/* SIZE VARIANTS */
 
 const sizeButtons =
   document.querySelectorAll(".variant");
@@ -177,7 +176,7 @@ sizeButtons.forEach((button) => {
 
 });
 
-/* COLOR VARIANTS */
+
 
 const colorButtons =
   document.querySelectorAll(".color");
@@ -200,7 +199,7 @@ colorButtons.forEach((button) => {
 
 });
 
-/* MAIN CART BUTTON*/
+
 
 const mainCartButton =
   document.querySelector(".main-cart-btn");
