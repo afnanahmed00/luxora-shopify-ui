@@ -1,4 +1,3 @@
-/*  NAVBAR ACTIVE STATE */
 
 const navItems = document.querySelectorAll(".nav-item");
 
@@ -16,7 +15,7 @@ navItems.forEach((item) => {
 
 });
 
-/*  HERO SLIDER*/
+
 
 const slides = document.querySelectorAll(".hero-slide");
 const dots = document.querySelectorAll(".slider-dots span");
@@ -54,7 +53,7 @@ if (slides.length > 0) {
 
 }
 
-/* WISHLIST */
+
 
 const wishlistButtons =
   document.querySelectorAll(".wishlist");
@@ -75,7 +74,7 @@ wishlistButtons.forEach((button) => {
 
 });
 
-/*  SEARCH PRODUCTS */
+
 
 const searchInput =
   document.querySelector(".search-left input");
