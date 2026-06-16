@@ -17,7 +17,6 @@ body {
   padding: 18px 16px 120px;
 }
 
-/* HEADER */
 
 .header {
   display: flex;
@@ -64,7 +63,7 @@ body {
   justify-content: center;
 }
 
-/* SEARCH */
+
 
 .search-wrapper {
   position: sticky;
