@@ -213,6 +213,8 @@ if (mainCartButton) {
 
     mainCartButton.style.background =
       "#222";
+      
+      
 
   });
 
