@@ -214,10 +214,6 @@ if (mainCartButton) {
     mainCartButton.style.background =
       "#222";
 
-      mainCartButton.id.display = none ;
-      
-      
-
   });
 
 }
