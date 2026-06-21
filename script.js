@@ -199,7 +199,7 @@ colorButtons.forEach((button) => {
 
 });
 
-
+const crt = document.querySelector("#myid");
 
 const mainCartButton =
   document.querySelector(".main-cart-btn");
@@ -213,6 +213,7 @@ if (mainCartButton) {
 
     mainCartButton.style.background =
       "#222";
+    crt.innerText = " Added to cart";
 
   });
 
